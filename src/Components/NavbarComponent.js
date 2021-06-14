@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Navbar, Container, Nav, Badge } from "react-bootstrap";
 import "./CSS/Style.css";
 
@@ -18,8 +18,8 @@ export default class NavbarComponent extends Component {
               <img
                 alt=""
                 src={logo}
-                width="60"
-                height="60"
+                width="30"
+                height="30"
                 className="d-inline-block align-top"
               ></img>
             </Navbar.Brand>

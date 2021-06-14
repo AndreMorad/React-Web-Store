@@ -3,6 +3,7 @@
 }
 .col:hover {
   box-shadow: 5px 10px 20px 1px rgb(0, 0, 0, 0.253) !important;
+  transition: 1s ease;
 }
 .card-img-top {
   transform: scale(1);
@@ -11,6 +12,19 @@
 
 .card-img-top:hover {
   transform: scale(1.8);
+}
+
+.card-body {
+  height: 80px;
+}
+.scroll {
+  max-height: 100px;
+  overflow-y: auto;
+}
+.custom-body {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: -1px;
 }
 
 .overflow {
